@@ -5,8 +5,8 @@ body{
 }
 
 .text-muted{
-color:#BCBBBB;
-font-weight: 900;
+    color:#BCBBBB;
+    font-weight: 900;
 }
 
 .text-thin{
@@ -137,4 +137,4 @@ font-weight: 900;
 	background-image: url('../images/instagram_circle_color-64.png');
 	
 }
-}
+

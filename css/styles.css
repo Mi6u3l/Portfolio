@@ -1,0 +1,140 @@
+body{
+	font-family: 'lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+.text-muted{
+color:#BCBBBB;
+font-weight: 900;
+}
+
+.text-thin{
+	font-weight: 100;
+}
+
+.title-super{
+	font-size: 50px
+}
+
+.title-logo{
+	margin-top: 20px
+}
+
+.img-project{
+	cursor: pointer;
+
+}
+
+.img-project-small{
+	float: left;
+	margin-right: 10px;
+}
+
+.body-project
+{
+	text-align: justify;
+}
+
+
+.social-roll{
+	height: 128px;
+	width: 128px;
+	
+	border-radius: 50%;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+
+.social-roll:hover
+{
+
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.8);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+
+.linkedin-roll{
+	background-image: url('../images/linkedin_circle_gray.png');
+	
+}
+
+.linkedin-roll:hover {
+	background-image: url('../images/linkedin_circle_color.png');
+	
+}
+
+.github-roll{
+	background-image: url('../images/github_circle_gray.png');
+	
+}
+
+.github-roll:hover {
+	background-image: url('../images/github_circle_black.png');
+	
+}
+
+.instagram-roll{
+	background-image: url('../images/instagram_circle_gray.png');
+	
+}
+
+.instagram-roll:hover {
+	background-image: url('../images/instagram_circle_color.png');
+	
+}
+
+
+
+
+@media screen and (max-width:430px){
+.social-roll{
+	height:64px;
+	width: 64px;
+	
+	border-radius: 50%;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+
+
+.linkedin-roll{
+	background-image: url('../images/linkedin_circle_gray-64.png');
+	
+}
+
+.linkedin-roll:hover {
+	background-image: url('../images/linkedin_circle_color-64.png');
+	
+}
+
+.github-roll{
+	background-image: url('../images/github_circle_gray-64.png');
+	
+}
+
+.github-roll:hover {
+	background-image: url('../images/github_circle_black-64.png');
+	
+}
+
+.instagram-roll{
+	background-image: url('../images/instagram_circle_gray-64.png');
+	
+}
+
+.instagram-roll:hover {
+	background-image: url('../images/instagram_circle_color-64.png');
+	
+}
+}
